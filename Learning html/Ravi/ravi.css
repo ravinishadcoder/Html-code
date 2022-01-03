@@ -1,0 +1,10 @@
+.soap{color: darkblue;
+font-family: 'Courier New', Courier, monospace;font-size: 100px;
+}
+.bold{
+    color: #0b2bb8;
+}
+a:hover{color: darkred;}
+body{
+    background-image: url(me.jpg);
+}

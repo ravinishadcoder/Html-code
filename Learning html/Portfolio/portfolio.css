@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Pushster&display=swap');
+body{
+    font-family:Montserrat ;
+    max-width: 50%;
+    margin: auto;
+}
+    .head{
+        display: flex;
+        align-items: center;
+    }
+.face{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 80px;
+    margin-top: 20px;
+}
+.title{
+    flex: 1;
+    margin: 20px;
+}
+    .name{
+        color: grey;
+    }
+    .sir{
+        color: coral;
+    }
+    .qualification{letter-spacing: 1px;
+        
+    }
+.hrline{
+    border: 1px solid coral;
+}
+    
+.thead{
+    min-width: 300px;
+    font-size: 20px;
+    color: coral;
+}
+.margin{
+    margin-top: 20px;
+}
+.jobh{font-size: 20px;line-height: 25px;
+
+}
+.jobduration{
+    font-weight: 300;font-style: italic;line-height: 25px;
+
+}
+.jobdes{margin-top: 20px;
+
+}
+
