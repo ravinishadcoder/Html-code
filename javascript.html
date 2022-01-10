@@ -6,9 +6,19 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>java script can change html content</h1>
-    <p id="change">this is Ravi Nishad</p>
+   <h1> show the value of y</h1>
+   <p> a=5 , b=6 calculate</p>
+   <p id="demo"></p>
 
-    <button type="button" onclick= 'document.getElementById("change").innerHTML= "Rocking star Ravi!"'>one click</button>
+    <script>
+        let a = 5 ;
+      let  b = 6;
+      let  y = a+b;
+
+
+       
+        document.getElementById('demo').innerHTML = y;
+
+    </script>
 </body>
 </html>
