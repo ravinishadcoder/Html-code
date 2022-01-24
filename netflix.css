@@ -1,0 +1,133 @@
+font-family: Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+.root{
+    background-image: url("./netflix.jpg");
+    /* opacity: 0.3;
+    z-index: -1; */
+    background: linear-gradient(rgb(17, 16, 16));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+   
+    
+}
+.nav{
+    height: 10vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 4vh;
+
+padding-right: 4vh;
+padding-top: 1%;
+flex-direction: row;
+
+}
+
+.language{
+    display: flex;
+    margin-left: 10px;
+    margin-left: 84%;
+    position: absolute;
+    margin-top: -50px;
+height: 35px;
+
+}
+.logo{
+    width: 14%;
+    
+
+}
+.btn{
+    background-color: #e50914;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 28%;
+    
+}
+.sub-container{
+color: white;
+width: 50%;
+text-align: center;
+margin-bottom: 10%;
+margin-left: -4%;
+line-height: 1.1;
+}
+.titel{
+    font-size: 4.2em;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.sub-titel{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.watch{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+.email-container{
+    width: 55%;
+    height: 43px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: -7%;
+}
+.email{
+    outline: none;
+    border: none;
+    padding: 20px,10px;
+    font-size: 1em;
+}
+.get{
+    cursor: pointer;
+    padding: 18px,32px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background-color: red;
+    color: white;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+
+}
+.get:hover{
+    background-color: rgba(250, 14, 14, 0.726);
+}
+
+
+
+
+
+
+
+
